@@ -45,6 +45,7 @@
     <module>keytool-api-1.5</module>
     <module>keytool-api-1.6</module>
     <module>keytool-api-1.7</module>
+    <module>keytool-api-1.8</module>
     <module>keytool-maven-plugin</module>
   </modules>
 
@@ -130,12 +131,12 @@
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
-        <version>3.0.1</version>
+        <version>3.0.16</version>
       </dependency>
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-container-default</artifactId>
-        <version>1.0-alpha-9-stable-1</version>
+        <version>1.5.5</version>
         <scope>provided</scope>
       </dependency>
       <dependency>
